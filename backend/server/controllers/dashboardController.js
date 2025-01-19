@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Note = require("../models/Notes");
+const Note = require("../models/notes");
 const e = require("express"); // Add this line to import the Note model
 
 exports.dashboard = async (req, res) => {
